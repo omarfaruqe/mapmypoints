@@ -15,6 +15,7 @@
 		42F0E8941C4AF67500D35A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F0E8921C4AF67500D35A93 /* LaunchScreen.storyboard */; };
 		42F0E89F1C4AF67500D35A93 /* MapMyPointsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F0E89E1C4AF67500D35A93 /* MapMyPointsTests.m */; };
 		42F0E8AA1C4AF67500D35A93 /* MapMyPointsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F0E8A91C4AF67500D35A93 /* MapMyPointsUITests.m */; };
+		42F0E8B81C4AF68200D35A93 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F0E8B71C4AF68200D35A93 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		42F0E8A51C4AF67500D35A93 /* MapMyPointsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapMyPointsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F0E8A91C4AF67500D35A93 /* MapMyPointsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapMyPointsUITests.m; sourceTree = "<group>"; };
 		42F0E8AB1C4AF67500D35A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F0E8B71C4AF68200D35A93 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42F0E8B81C4AF68200D35A93 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		42F0E8781C4AF67500D35A93 = {
 			isa = PBXGroup;
 			children = (
+				42F0E8B71C4AF68200D35A93 /* MapKit.framework */,
 				42F0E8831C4AF67500D35A93 /* MapMyPoints */,
 				42F0E89D1C4AF67500D35A93 /* MapMyPointsTests */,
 				42F0E8A81C4AF67500D35A93 /* MapMyPointsUITests */,
